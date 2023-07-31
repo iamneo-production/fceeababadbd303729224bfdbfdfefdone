@@ -1,0 +1,13 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "cucumber.features": [
+        "src/test/resources/features/*.feature",
+        "features/**/*.feature",
+        "tests/**/*.feature",
+        "*specs*/**/.feature"
+    ],
+    "cucumber.glue": [
+        "src/test/java/glue/*.java"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+}
