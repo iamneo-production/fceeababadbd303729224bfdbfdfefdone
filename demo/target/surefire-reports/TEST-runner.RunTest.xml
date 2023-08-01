@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="runner.RunTest" time="0.951" errors="2" skipped="0">
+<testsuite tests="13" failures="0" name="runner.RunTest" time="1.126" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.18+10-post-Debian-1deb11u1"/>
@@ -41,10 +41,9 @@
     <property name="java.specification.version" value="11"/>
     <property name="user.name" value="coder"/>
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="error"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -q test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -62,101 +61,15 @@
   </properties>
   <testcase classname="| Razor |" name="Given I am on the Gillette website" time="0.002"/>
   <testcase classname="| Razor |" name="When I search for &quot;Razor&quot; using the search option" time="0"/>
-  <testcase classname="| Razor |" name="Then I should see &quot;Results For Razor&apos;&quot; at the top of the search results" time="0.001"/>
-  <testcase classname="| Razor |" name="| Razor |" time="0.698"/>
+  <testcase classname="| Razor |" name="Then I should see &quot;Results For Razor&apos;&quot; at the top of the search results" time="0"/>
+  <testcase classname="| Razor |" name="| Razor |" time="0.581"/>
   <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Given I am on the Gillette website" time="0"/>
   <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="When I hover on from the top navigation" time="0"/>
   <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="And I choose &quot;MACH3&quot; under &quot;By Brands&quot; from the drop-down" time="0"/>
-  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Then I should see &quot;Gillette MACH3 Turbo&quot; under the products list" time="0"/>
-  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Scenario: Verify the display of Gillette MACH3 Turbo under products list" time="0.232"/>
+  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Then I should see &quot;Gillette MACH3 Turbo&quot; under the products list" time="0.001"/>
+  <testcase classname="Scenario: Verify the display of Gillette MACH3 Turbo under products list" name="Scenario: Verify the display of Gillette MACH3 Turbo under products list" time="0.298"/>
   <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Given I am on the Gillette website" time="0"/>
   <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="When I click on &quot;Styling&quot; under &quot;Learn&quot; in the footer" time="0"/>
-  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Then I should see &quot;Facial Hair Styles: The Anchor Beard&quot; under the list of articles under styling" time="0.007">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;tabItem_1&quot;]&quot;}
-  (Session info: chrome=113.0.5672.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [b91bded203f04a531fc18a6409a6d570, findElement {using=xpath, value=//*[@id=&quot;tabItem_1&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.aOSStM}, goog:chromeOptions: {debuggerAddress: localhost:45191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 113.0.5672.63, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b91bded203f04a531fc18a6409a6d570" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;tabItem_1&quot;]&quot;}
-  (Session info: chrome=113.0.5672.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [b91bded203f04a531fc18a6409a6d570, findElement {using=xpath, value=//*[@id=&quot;tabItem_1&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.aOSStM}, goog:chromeOptions: {debuggerAddress: localhost:45191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 113.0.5672.63, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b91bded203f04a531fc18a6409a6d570
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
-	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
-	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
-	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$vyIVU2Pd.findElement(Unknown Source)
-	at glue.GilletteTests.iShouldSeeUnderTheListOfArticlesUnderStyling(GilletteTests.java:107)
-	at ✽.Then I should see &quot;Facial Hair Styles: The Anchor Beard&quot; under the list of articles under styling(gillette.feature:21)
-</error>
-  </testcase>
-  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" time="0.011">
-    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;tabItem_1&quot;]&quot;}
-  (Session info: chrome=113.0.5672.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [b91bded203f04a531fc18a6409a6d570, findElement {using=xpath, value=//*[@id=&quot;tabItem_1&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.aOSStM}, goog:chromeOptions: {debuggerAddress: localhost:45191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 113.0.5672.63, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b91bded203f04a531fc18a6409a6d570" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;tabItem_1&quot;]&quot;}
-  (Session info: chrome=113.0.5672.63)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
-System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.10.162+&apos;, java.version: &apos;11.0.18&apos;
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [b91bded203f04a531fc18a6409a6d570, findElement {using=xpath, value=//*[@id=&quot;tabItem_1&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.aOSStM}, goog:chromeOptions: {debuggerAddress: localhost:45191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.17.0.2:4444/sessio..., se:cdpVersion: 113.0.5672.63, se:vnc: ws://172.17.0.2:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.17.0.2:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b91bded203f04a531fc18a6409a6d570
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:247)
-	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
-	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$0(WebDriverDecorator.java:309)
-	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$vyIVU2Pd.findElement(Unknown Source)
-	at glue.GilletteTests.iShouldSeeUnderTheListOfArticlesUnderStyling(GilletteTests.java:107)
-	at ✽.Then I should see &quot;Facial Hair Styles: The Anchor Beard&quot; under the list of articles under styling(gillette.feature:21)
-</error>
-  </testcase>
+  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Then I should see &quot;Facial Hair Styles: The Anchor Beard&quot; under the list of articles under styling" time="0.001"/>
+  <testcase classname="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" name="Scenario: Verify the presence of &quot;Facial Hair Styles: The Anchor Beard&quot; under styling articles" time="0.243"/>
 </testsuite>
